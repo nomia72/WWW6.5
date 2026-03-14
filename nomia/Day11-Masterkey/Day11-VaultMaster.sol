@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.20;
 
-import "./Ownable.sol"; 
+import "./Day11-Ownable.sol"; 
 
 contract VaultMaster is Ownable{
 
