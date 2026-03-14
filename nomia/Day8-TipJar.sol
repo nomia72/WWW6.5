@@ -99,7 +99,7 @@ contract TipJar{
     }
 
 
-    function getContractBalance() public view returns (uint256){ //查询合约余额
+    function getContractBalance() public view returns (uint256){ //查询合约余额 withdraw以后就无了
         return address(this).balance;
 
 
